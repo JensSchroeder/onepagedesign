@@ -1,0 +1,281 @@
+﻿
+/* ###################### */
+/*	HTML Standard Tags */
+/* ###################### */
+
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+.js_button {
+	text-transform: uppercase;
+	padding: 10px 30px;
+	display: inline-block;
+	margin: 20px 0 20px 50px;
+}
+
+/* ###################### */
+/*	Zusammengefasste Klassen */
+/* ###################### */
+
+header, footer{
+	background: #fff;
+}
+
+.js_h2_balken {
+	margin: 0 auto 10px auto;
+	height: 5px;
+	width: 80px;
+}
+
+
+.js_page {
+	height: 100%;
+	width:100%;
+	overflow: hidden;
+	float:left;
+}
+
+#Startseite h2, #Kontakt h2, #Startseite p ,#Kontakt p{
+	color:#fff;
+}
+
+p , .js_button{
+	word-spacing: 3px;
+	line-height: 25px;
+	font-family: 'Lato', sand-serif;
+	font-weight: 300; 
+}
+
+/* ############### */
+/* HEADER */
+/* ############### */
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 99;
+	left: 0;
+	right: 0;
+	top: 0;
+	background:#fff;
+}
+
+nav {
+	float: right;
+	height: 40px
+}
+
+nav ul {
+	margin:6px 8px 0 0;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	color:#999;
+	transition: all 300ms;
+}
+
+nav ul li a:hover{
+	color:#000;
+}
+
+footer {
+	height: 300px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+/* ############### */
+/* STARTSEITE */
+/* ############### */
+
+#Startseite h2 {
+	text-align: left;
+	font-size: 120px;
+	line-height: 110px;
+	margin: 450px 0 25px 50px;
+}
+
+#Startseite p {
+	margin: 0 0 20px 50px  ;
+	max-width: 300px;
+}
+
+#Startseite .js_h2_balken {
+	background-color: #fff;
+	margin: 0 0 20px 50px;
+}
+
+#Startseite .js_button {
+	color:#fff;
+	border: 2px solid #fff;
+}
+
+
+#Startseite {
+	background: url(../resources/images/bg_startseite.jpg);
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+/* ############### */
+/* Über uns */
+/* ############### */
+
+#Ueberuns h2{
+	color:#000;
+	font-size: 55px;
+	text-align: center;
+}
+
+#Ueberuns .ueberuns {
+	width: 42.5%;
+	float:left;
+	margin: 50px 2.5% 0 5% ;
+}
+
+#Ueberuns .js_motto_bg{
+	background: url(../resources/images/uber_uns.jpg);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	background-attachment: fixed;
+}
+#Ueberuns .ueberuns article {
+	width: 70%;
+	margin: 100px auto 100px auto;
+	min-height: 450px;
+}
+
+#Ueberuns .ueberuns .js_motto_bg {
+	width:70%;
+}
+
+#Ueberuns .js_motto_bg article p{
+	color:#fff;
+	line-height: 90px;
+	font-size: 65px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+/* ############### */
+/* Leistungen */
+/* ############### */
+
+#Leistungen h2 {
+	color:#000;
+	font-size: 55px;
+	text-align: center;
+}
+
+#Leistungen .js_leistungen {
+	width:90%;
+	margin:50px auto 0 auto;
+}
+
+#Leistungen .js_leistungen ul li{
+	list-style: none;
+	width:30%;
+	margin:0 5% 0 0;
+	position: relative;
+	float: left;
+	min-height: 650px;
+
+}
+
+#Leistungen .js_handarbeit {
+	background: url(../resources/images/leistung_1.jpg);
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+#Leistungen .js_projekte_naturholz{
+	background: url(../resources/images/leistung_2.jpg);
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+#Leistungen .js_moebel_naturholz{
+	background: url(../resources/images/leistung_3.jpg);
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+#Leistungen .js_leistungen ul li:last-child{
+	margin: 0;
+}
+
+#Leistungen .js_leistungen ul li .js_li_inner {
+	bottom: 25px;
+	left:25px;
+	width:80%;
+	position: absolute;
+}
+.js_li_inner {
+	color:#fff;
+}
+
+.js_li_inner h3{
+	font-size: 65px;
+	margin: 0 0 10px 0;
+}
+
+.js_h3_balken {
+	background-color: #fff;
+	margin: 20px 0;	
+	height: 5px;
+	width: 80px;
+}
+
+
+/* ############### */
+/* Kontakt */
+/* ############### */
+
+#Kontakt h2{
+	text-align: center;
+	font-size: 55px;
+	margin:100px auto 0 auto;
+}
+
+#Kontakt {
+	background: url(../resources/images/bg_kontakt.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
